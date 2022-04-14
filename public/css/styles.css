@@ -1,0 +1,225 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root {
+    --blue: #03264C;
+    --darkGray: #666;
+    --yellow: #EAC926;
+    --green: #39b54a;
+    --lightGrey:#ebebeb;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+
+h3{
+    font-size: 24px;
+}
+
+.main-article{ 
+    display: flex;
+    border-top: 1px solid var(--lightGrey);
+    padding: 15px; 
+    text-align: left;
+} 
+
+.prod{
+    width: 90%; 
+    
+}
+.truckSimulator{
+    color: var(--green);
+    background-color: WHITE;
+    border-radius: 50%;
+    border: solid 1px var(--green);
+    padding: 0.4rem;
+    position: relative;
+    top:-2rem;
+    right: -80%;
+    transition: transform 450ms;
+    
+}
+p{
+    font-size: 12px;
+}
+/* header */
+.top-header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+header{
+    background-color: var(--yellow);
+    padding-bottom: 10px;
+}
+
+.Mheader{
+    display: flex;
+}
+
+.logo{
+    max-width: 35%;
+    
+}
+.sbar{ 
+    margin-left: 1rem;
+    font-size: 12px;
+    flex-grow: 0.5;
+    align-self: center;
+    justify-content: space-between;
+    display: flex;
+
+}
+
+.pagoConTarjeta {
+    text-align: center;
+}
+.envioGratis{
+    text-align: center;
+}
+.segurity {
+    text-align: center;
+}
+
+header div.logo{
+    padding: 10px;
+}
+header nav{
+    font-size: 12px;
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+header .form .input{
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 2px;
+}
+header .form .submit{
+    background-color: #FFF;
+    border: 1px solid #000;
+    color: #666;
+    width: 10%;
+}
+
+
+div.burger-menu{
+    text-align: center;
+}
+
+div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+}
+
+.price{
+    font-size: 18px;
+    flex-grow: 0.3
+}
+
+.discount{
+    font-size: 18px;
+    flex-grow: 0.7;
+    color: var(--green);
+}
+
+
+.description{
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left;
+    color: #666;
+    display: none;
+    margin-top: 1rem;
+    transition: opacity 300ms
+}
+
+
+section.banner img{
+    width: 100%;
+}
+
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+main section article{
+    background-color: #fff;    
+    margin: 10px 0px;
+}
+
+main section article img{
+    width: 100%;
+}
+
+
+
+main section article i{
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+}
+
+main section h3{
+    margin: 20px 0px;
+}
+
+
+
+.navbar{
+    display: none;
+}
+
+
+@media (min-width: 450px) {
+   
+    .navbar {
+        display: flex;
+        text-align: left;
+    }
+    article{
+        box-shadow:  0px 0px 10px rgb(100,100,100);
+    }
+    .buger-menu{
+        display: none;
+    }
+    .input{
+        width: 77%;
+    }
+    .description{
+        display: flex;
+    }
+}
+
+
+@media (min-width: 769px){
+
+}
